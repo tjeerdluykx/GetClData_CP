@@ -13,4 +13,4 @@ The R script called run_analysis.R that does the following:
 
 5. From the data set in step 4, create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The final output of he run_analysis.R script is embeded tidydataset.txt.
+The final output of the run_analysis.R script is embeded in tidy1.txt file and the the tidy2.txt file.
