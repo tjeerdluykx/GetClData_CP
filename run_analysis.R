@@ -54,7 +54,7 @@ colnames(CombinedActs) <- "Activity ID"
 Acts <- join(CombinedActs,ActivityLabels, by = "Activity ID")
 
 ## Adding the Acts column to the combined dataset
-rCombinedData <- cbind(Activity=Activities[,"Activity Label"],rCombinedData)
+rCombinedData <- cbind(Activity=Acts[,"Activity Label"],rCombinedData)
 
 ## Write table of formated data set
 write.table(rCombinedData, "tidy1.txt", row.names = FALSE, quote = FALSE)
